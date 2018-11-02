@@ -122,6 +122,7 @@ function cardSelected (e) {
       
       e.target.classList.add('flipped');
       e.target.removeEventListener('click',cardSelected);
+      currentCard.classList.remove('picked');
       currentCard.classList.add('flipped');
       deck.splice(0,2);
       // Step 6c - Add a point to the score for this player

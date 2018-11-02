@@ -11,8 +11,8 @@ background-color: aliceblue;
     margin: 20px;
     width: 65px;
     height: 65px;
-    background-color: coral;
-    color: white;
+    background-color: black;
+    color: black;
     font-size: 20px;
     text-align: center
 }
@@ -22,20 +22,26 @@ background-color: aliceblue;
     width: 65px;
     height: 65px;
     background-color: coral;
-    color: white;
+    color: black;
     font-size: 20px;
+
     text-align: center
   }
 
 /* Step 3 - Add a nice hover effect */
 .card:hover {
-    border: 2px solid #333;
+    border: 2px solid red;
 }
 
 /* Step 4 (+4 points) - Write a style for a flipped card */
 .flipped {
-   
-    background-color: black;
+    margin: 20px;
+    width: 65px;
+    height: 65px;
+    background-color: coral;
+    color: black;
+    font-size: 20px;
+    text-align: center
 
 }
 
@@ -44,7 +50,7 @@ background-color: aliceblue;
     margin: 20px;
  width: 200px;
  height: 50px;
- border: 1px solid black;
+ border: 3px solid black;
  text-align: center
 }
 
@@ -69,10 +75,15 @@ button{
 }
 /* 3) */
 #score{
- width: 100%;
+ width: 100px;
  height: 50px;
- border: 1px solid black;
+ border: 3px solid black;
  text-align: center
 }
 /* 4) */
+#gameboard{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
 /* 5) */
